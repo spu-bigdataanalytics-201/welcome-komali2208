@@ -73,14 +73,7 @@ def calculate_letter_grade(assignments: list, final_project: int, midterm: int, 
 
 
 if __name__ == "__main__":
-    
     # example
-    grade = calculate_letter_grade(
-        assignments=[100, 100, 100, 90, 60, 100],
-        final_project=90,
-        midterm=90,
-        return_grade=False
-    )
 
     # grade should be A- (92.0).
     print(grade)
